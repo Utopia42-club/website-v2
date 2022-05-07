@@ -6,7 +6,7 @@ const Download = () => {
         <div className="downlaod_now" id="download">
             <div className="bg-area">
                 <div className="head">
-                    <h1>DOWNLOAD UTOPIA42 ON YOUR <br />FAVOURITE PLATEFORM</h1>
+                    <h1>DOWNLOAD UTOPIA42 ON YOUR <br />FAVORITE PLATFORM</h1>
                     <div className="d-img">
                         <img src={DownloadLogos.d_img} alt="" />
                     </div>

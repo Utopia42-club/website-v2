@@ -9,7 +9,7 @@ const DownloadButton = () => {
                     <img src={ButtonIcons.Download} alt="" className="white-play" />
                 </div>
             </div>
-            <h4>Download now</h4>
+            <a href="https://app.utopia42.club/home"><h4>Download now</h4></a>
         </div>
     )
 }

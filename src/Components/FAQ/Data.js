@@ -2,7 +2,7 @@
     {
         id:1,
         question:'What is UTOPIA42?',
-        answer:'UTOPIA42 is blockchain’s first Proof of Knowledge (PoK) network, poise to revolutionize global education and general learning, utilizing decentralization. The title UTOPIA42 is also the platform’s native token and DEX name. '
+        answer:'UTOPIA42 is blockchain’s first Proof of Knowledge (PoK) network, poised to revolutionize global education and general learning, utilizing decentralization. The title UTOPIA42 is also the platform’s native token and DEX name. '
     },
     {
         id:2,
@@ -11,7 +11,7 @@
     }, {
         id:3,
         question:'What blockchain is UTOPIA42 built on?',
-        answer:'UTOPIA42 and a handful of its foremost ecosystem would be primarily developed on the Binance Smart Chain. However, momentarily, there’s to be a multi-chain integration and compatibility for the UTOPIA42 token and DEX. And ultimately, a non-exclusive wholesome migration to the network’s native blockchain; AcadChain. '
+        answer:'UTOPIA42 and a handful of its foremost ecosystems will be primarily developed on the Binance Smart Chain. However, momentarily, there is a multi-chain integration and compatibility for the UTOPIA42 token and DEX. And ultimately, a non-exclusive wholesome migration to the network’s native blockchain; AcadChain. '
     }, {
         id:4,
         question:'When is UTOPIA42 planning its launch??',
@@ -29,11 +29,11 @@
     {
         id:7,
         question:'What wallets can one use for the IDO?',
-        answer:'The majority of the existing Web3 wallets would be compatible for connection and transacting during the IDO rounds.'
+        answer:'The majority of the existing Web3 wallets are compatible for connection and transacting during the IDO rounds.'
     },
     {
         id:8,
         question:'Is there an official socials group?',
-answer:'We have an official telegram group. With other media presence on medium and twitter. '    },
+answer:'We have an official telegram group. With other media presence on discord, instagram and twitter. '    },
 ]
 export default Data
