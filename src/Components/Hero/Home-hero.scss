@@ -1,0 +1,152 @@
+.hero{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vw;
+    background-image:url('../../assets/hero-bg-after.png');
+
+    @media screen and (min-width:1700px) {
+        background-image:url('../../assets/hero-bg.png');
+        background-position-y:-10em ;
+        height: 60vw;
+    }
+    @media screen and(max-width:850px) and (min-width:600px){
+        background-image: url('../../assets/hero-bg-tablet.png');
+        height: 200vw;
+    }
+    @media screen and(max-width:600px) and (min-width:350px){
+        background-image: url('../../assets/hero-bg-tablet.png');
+        height: 250vw;
+    }
+    @media screen and(max-width:350px) {
+        background-image: url('../../assets/hero-bg-tablet.png');
+        height: 300vw;
+    }
+    .hero-img{
+        display: none;
+        @media screen and(max-width:850px) {
+            display: block;
+        }
+    }
+    .main-hero{
+       padding-top: 3em;
+       padding-left: 4em;
+       padding-right: 4em;
+       @media screen  and (min-width:1450px){
+        padding-right:10em;
+        padding-left: 8em;
+        padding-top: 1em;
+      }
+       display: grid;
+       grid-template-columns: 50% 50%;
+       @media screen and(max-width:850px) {
+           display:  block;
+       }
+       @media screen and(max-width:650px) {
+           padding-left: 1em;
+           padding-right: 1em;
+       }
+       .hero-img{
+           width: 60vw;
+           margin: auto;
+         
+           @media screen and(max-width:460px) {
+               width: 40vw;
+           }
+       }
+       .dummy{
+           height: 70vw;
+           @media screen and(max-width:850px) {
+               display: none;
+           }
+           @media screen and (min-width:1700px) {
+               height: 35vw;
+           }
+       }
+       .main-text{
+           text-align: center;
+           display: flex;
+           align-content: center;
+           align-self: center;
+           align-items: center;
+           padding-left: 2em;
+           padding-right: 2em;
+           @media screen and(min-width:1500px){
+            padding-left: 5em;
+            padding-right: 0;
+        
+          }
+          @media screen and(min-width:1900px){
+            padding-left: 6vw;
+            padding-right: 6vw;
+        
+          }
+           @media screen and (max-width:1300px){
+               padding-left: 1em;
+               padding-right: 1em;
+           }
+           @media screen and (max-width:650px){
+               padding: 0;
+           }
+           h1{
+               color: #814F8C;
+               font-weight: 700;
+               font-size: 3em;
+               padding-bottom: .5em;
+               text-transform: uppercase;
+               @media screen and (max-width:1100px){
+                   font-size: 2em;
+               }
+               @media screen and(max-width:850px) {
+                   margin-top: 2.4em;
+               }
+               @media screen and(max-width:550px) {
+                   margin-top: 1em;
+               }
+           }
+           h2{
+               font-weight: 400;
+               color: #404040;
+               text-transform: uppercase;
+               @media screen and (max-width:1100px){
+                   font-size: 1.2em;
+               }
+           }
+           .buttons{
+               display: flex;
+               justify-content: space-between;
+               flex-wrap: wrap;
+               padding: 2em;
+               @media screen and(min-width:1870px) {
+                   padding-left:3vw !important;
+                   padding-right: 3vw !important;
+               }
+               @media screen and (max-width:1206px) and (min-width:850px){
+                   display: block;
+                   margin: auto;
+                   width: fit-content;
+                   padding-left: 0em !important;
+                   padding-right: 0em !important;
+                   .downloadBtn{
+                       width: 100%;
+                       margin-top: 1em;
+                   }
+               }
+               @media screen and (max-width:850px) and (min-width:750px){
+                   padding-left: 2em;
+                   padding-right: 2em;
+               }
+               @media screen and (max-width:750px) and (min-width:00px){
+                display: block;
+                   margin: auto;
+                   width: fit-content;
+                   padding-left: 0em !important;
+                   padding-right: 0em !important;
+                   .downloadBtn{
+                       width: 100%;
+                       margin-top: 1em;
+                   }   
+            }
+           }
+       }
+    }
+}

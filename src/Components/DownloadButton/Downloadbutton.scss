@@ -1,0 +1,42 @@
+.bt{
+  cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid #814F8C;
+    border-radius: 15px;
+    padding: 1em 1.2em;
+    width: fit-content;
+    .icon{
+      background-color: #814F8C;
+      width: 28px;
+      height: 28px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+    h4{
+      color: #814F8C;
+      padding-left: 1em;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  .bt:hover{
+    background-color: #814F8C;
+    h4{
+      color: #fff;
+    }
+    .play-area{
+      width: 28px;
+      height: 28px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      border: 2px solid #fff;
+    }
+   
+  }

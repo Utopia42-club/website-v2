@@ -1,0 +1,30 @@
+.unbc {
+  background-color: #f4f7ff;
+  padding-top: 4em;
+  @media screen and (min-width: 1450px) {
+    padding-top: 6em;
+  }
+  @media screen and (max-width: 750px) and (min-width: 0px) {
+    padding-top: 2em;
+  }
+  .road {
+    margin-top: 12em;
+    @media screen and(max-width:650px) {
+      margin-top: 6em;
+    }
+    text-align: center;
+    img {
+      width: 90vw;
+      // @media screen and(max-width:900px) {
+      //   width: 85vw;
+      // }
+      @media screen and(max-width:550px) {
+        // height: 55vw;
+        width: 85vw;
+      }
+    }
+  }
+  .Na {
+    display: none;
+  }
+}

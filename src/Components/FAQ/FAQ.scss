@@ -1,0 +1,90 @@
+// @import "../../styles/variables";
+.faq {
+  margin-top: 7rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 85%;
+  }
+  h1{
+    color: #814F8C;
+    font-weight: 700;
+    font-size: 3em;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    text-align: center;
+    @media screen and (max-width:1100px){
+        font-size: 2em;
+    }
+    @media screen and(max-width:850px) {
+        margin-top: 2.4em;
+    }
+    @media screen and(max-width:550px) {
+        margin-top: 1em;
+    }
+}
+  .faq-questions {
+    margin-top: 1rem;
+    .section-faq {
+      margin-top: 3rem;
+      .accordian {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        justify-content: space-between;
+        .question {
+          cursor: pointer;
+          font-size: 2.5rem;
+        //   font-family: $sofia;
+          color: #814F8C;
+          font-weight: 500;
+          @media screen and (max-width: 1200px) {
+            font-size: 2.5rem;
+          }
+          @media screen and (max-width: 900px) {
+            font-size: 2.2rem;
+            padding-right: 1rem;
+          }
+          @media screen and (max-width: 520px) {
+            font-size: 1rem;
+          }
+        }
+        .add-sign {
+          cursor: pointer;
+          width: 38px;
+
+          @media screen and (max-width: 900px) {
+            width: 25px;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .content-faq.active {
+        display: block;
+      }
+      .content-faq {
+        font-size: 1.1rem;
+        color: #565656;
+        // font-family: $sofia;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 1.5rem;
+        display: none;
+
+        @media screen and (max-width: 1200px) {
+          font-size: 0.8rem;
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

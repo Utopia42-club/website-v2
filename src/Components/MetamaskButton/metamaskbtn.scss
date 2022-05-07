@@ -1,0 +1,34 @@
+.meta_btn{
+    display: flex;
+    align-items: center;
+    border: 2px solid #814F8C;
+    border-radius: 15px;
+    padding: 1em 1.2em;
+    width: fit-content;
+    cursor: pointer;
+    .metaicon-area{
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+     img{
+         width: 30px;
+     }
+    }
+    h4{
+      color: #814F8C;
+      padding-left: 1em;
+      font-weight: 600;
+      text-transform: uppercase;
+
+    }
+  }
+  .meta_btn:hover{
+    background-color: #814F8C;
+    h4{
+      color: #fff;
+    }
+  }
