@@ -25,22 +25,23 @@ const Team = () => {
                         <div className="image-area c1">
                             <img src={require("../../assets/f1.png")} alt="" />
                         </div>
-                        <h2>Matt mardock</h2>
-                        <h4>Founder ceo</h4>
+                        <h2>Matthew Ready</h2>
+                        <h4>Founder</h4>
                     </div>
                     <div className="im ">
                         <div className="image-area c2">
                             <img src={require("../../assets/f2.png")} alt="" />
                         </div>
-                        <h2>Sarah Butt</h2>
-                        <h4>Founder ceo</h4>
-                    </div><div className="im ">
+                        <h2>Reza Bakhshandeh</h2>
+                        <h4>Founder</h4>
+                    </div>
+                    {/* <div className="im ">
                         <div className="image-area c3">
                             <img src={require("../../assets/f3.png")} alt="" />
                         </div>
                         <h2>LIA Johansan</h2>
                         <h4>Founder ceo</h4>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="management">

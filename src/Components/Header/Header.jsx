@@ -75,7 +75,7 @@ const Header = () => {
                                         </a>
                                     </li>
                                     <li className="s-link">
-                                        <a href="https://twitter.com/Utopia42C" target="_blank" ><img src={Instagram} alt="" />
+                                        <a href="https://instagram.com/Utopia42.club" target="_blank" ><img src={Instagram} alt="" />
                                             Follow on Instagram
                                         </a>
                                     </li>
