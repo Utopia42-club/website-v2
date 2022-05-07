@@ -9,11 +9,11 @@ const Footer = () => {
                 <h1>Utopia42</h1>
             </div>
             <div className="links">
-                <div className="area-1">
+                {/* <div className="area-1">
                     <h2>Explore</h2>
                     <h4>Connect to Metamask</h4>
-                    <h4>Play on Browser</h4>
-                </div>
+                    <h4><a href="https://app.utopia42.club/home" target="_blank" >Play on Browser</a></h4>
+                </div> */}
                 <div className="area-2">
                     <h2>About</h2>
                     <h4>Our Team</h4>
@@ -33,8 +33,8 @@ const Footer = () => {
                     </div>
                     <div className="download-sec">
                         <img src={DownloadLogos.p1} alt="" />
-                        <img src={DownloadLogos.p2} alt="" />
-                        <img src={DownloadLogos.p3} alt="" />
+                        {/* <img src={DownloadLogos.p2} alt="" /> */}
+                        {/* <img src={DownloadLogos.p3} alt="" /> */}
 
                     </div>
                 </div>

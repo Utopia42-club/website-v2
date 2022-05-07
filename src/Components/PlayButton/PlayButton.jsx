@@ -9,7 +9,7 @@ const PlayButton = () => {
                     <img src={ButtonIcons.PlayW} alt="" className="white-play" />
                 </div>
             </div>
-            <h4>Play on Browser</h4>
+            <h4><a href="https://app.utopia42.club/home" target="_blank" >Play on Browser</a></h4>
         </div>
     )
 }

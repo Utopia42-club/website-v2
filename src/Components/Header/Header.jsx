@@ -35,7 +35,7 @@ const Header = () => {
                 <div className={click ? "active menu" : "menu"} id="menu">
                     <ul>
                         <div className="m-link">
-                            <li className="exp">
+                            {/* <li className="exp">
                                 <Link to="/" >
                                     Explore
                                 </Link>
@@ -46,7 +46,7 @@ const Header = () => {
                                         <PlayButton />
                                     </div>
                                 </div>
-                            </li>
+                            </li> */}
                             <li className="about">
                                 <Link to="/"  >About</Link>
                                 <img src={HeaderImg.more} alt="" className="more" />
@@ -81,9 +81,9 @@ const Header = () => {
                                     </li>
                                 </div>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/unbc" onClick={LinkClick}>UNBC</Link>
-                            </li>
+                            </li> */}
                         </div>
 
                     </ul>

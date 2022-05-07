@@ -9,7 +9,7 @@ const Protocol = () => {
                 <div className="pr">
                     <img src={Proto.p1} alt="" />
                     <h2>Blockchain</h2>
-                    <h4>Utopia is using Binance Smart Chain(BSC) and IPFS.</h4>
+                    <h4>Utopia is using Polygon and IPFS.</h4>
                 </div>
                 <div className="pr">
                     <img src={Proto.p2} alt="" />
