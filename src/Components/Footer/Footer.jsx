@@ -1,6 +1,7 @@
 import React from "react";
 import { HeaderImg, DownloadLogos } from "../../assets";
 import './Footer.scss'
+import { Link } from "react-router-dom"
 const Footer = () => {
     return (
         <div className="footer">
@@ -16,14 +17,14 @@ const Footer = () => {
                 </div> */}
                 <div className="area-2">
                     <h2>About</h2>
-                    <h4>Our Team</h4>
-                    <h4>Whitepaper</h4>
-                    <h4>Roadmap</h4>
+                    <li><Link to='/team'>Our Team</Link></li>
+                    <li><Link to='/'>Whitepaper</Link></li>
+                    <li><Link to='/roadmap'>Roadmap</Link></li>
                 </div>
                 <div className="area-3">
                     <h2>Others</h2>
-                    <h4>Support & FAQ</h4>
-                    <h4>Social</h4>
+                    <a href="#FAQ">Support & FAQ</a>
+                    {/* <a href=".social"><h4>Social</h4></a> */}
                     {/* <h4>UNBC</h4> */}
                 </div>
                 <div className="area-4">
