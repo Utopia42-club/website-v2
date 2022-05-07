@@ -24,7 +24,7 @@ const Footer = () => {
                     <h2>Others</h2>
                     <h4>Support & FAQ</h4>
                     <h4>Social</h4>
-                    <h4>UNBC</h4>
+                    {/* <h4>UNBC</h4> */}
                 </div>
                 <div className="area-4">
                     <div className="head-area-3">
