@@ -44,7 +44,7 @@ const Team = () => {
                     </div> */}
                 </div>
             </div>
-            {/* <div className="management">
+            <div className="management">
                 <h1>Mangement</h1>
                 <div className="imgs">
                     <div className="im ">
@@ -68,7 +68,7 @@ const Team = () => {
                         <h4>Founder ceo</h4>
                     </div>
 
-                </div></div> */}
+                </div></div>
             <OurParnter />
         </div >
     )
