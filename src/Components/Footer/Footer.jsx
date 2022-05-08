@@ -30,7 +30,7 @@ const Footer = () => {
                 <div className="area-4">
                     <div className="head-area-3">
                         <h2>Downloads</h2>
-                        <h3>Download Utopia42 from your desired plateforms</h3>
+                        <h3>Download Utopia42 from your desired platforms</h3>
                     </div>
                     <div className="download-sec">
                         <img src={DownloadLogos.p1} alt="" />

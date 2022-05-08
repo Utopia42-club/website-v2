@@ -13,11 +13,11 @@ const Download = () => {
                 </div>
                 <h4>Utopia42 is available on Windows.</h4>
 
-                <div className="plateforms">
+                <div className="platforms">
                     <div className="d2-img">
                         <img src={require('../../assets/download-area-img-2.png')} alt="" />
                     </div>
-                    <a href="#"><img src={DownloadLogos.p1_b} alt="windos" /></a>
+                    <a href="#"><img src={DownloadLogos.p1_b} alt="windows" /></a>
                     {/* <a href="#"><img src={DownloadLogos.p2_b} alt="ios" /></a> */}
                     {/* <a href="#"><img src={DownloadLogos.p3_b} alt="android" className="and" /></a> */}
                 </div>
