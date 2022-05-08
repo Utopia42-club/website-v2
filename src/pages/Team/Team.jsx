@@ -10,7 +10,7 @@ const Team = () => {
                         <h1>Our Team</h1>
                     </div>
                     <div className="desc">
-                        <h2>To be the company our customers want us to be, it takes an eclectic group passionate about the customer experience. Get to know the people leading the way at UTOPIA42 animal-themed offsite at a time.</h2>
+                        <h2>To be the company our customers want us to be, it takes an eclectic group passionate about the customer experience. Get to know the people leading the way at UTOPIA42.</h2>
                     </div>
 
                 </div>
@@ -44,7 +44,7 @@ const Team = () => {
                     </div> */}
                 </div>
             </div>
-            <div className="management">
+            {/* <div className="management">
                 <h1>Mangement</h1>
                 <div className="imgs">
                     <div className="im ">
@@ -68,7 +68,7 @@ const Team = () => {
                         <h4>Founder ceo</h4>
                     </div>
 
-                </div></div>
+                </div></div> */}
             <OurParnter />
         </div >
     )
