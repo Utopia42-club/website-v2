@@ -97,7 +97,16 @@
         
         .area:nth-child(1){
             @media screen and (min-width:1110px) {
-            margin-right: 2em;
+            // margin-right: 2em;
+            img{
+                left: 35%;
+                margin-bottom: 8%;
+                -webkit-margin-before: -4%;
+
+            }
+        }
+        @media screen and (max-width:1110px) {
+            // margin-right: 1em;
             img{
                 left: 35%;
                 margin-bottom: 8%;
@@ -117,6 +126,16 @@
 
             }
         }
+        @media screen and (max-width:1110px) {
+            img{
+                width: 40%;
+                margin-bottom: 10%;
+                margin-right: 3em;
+                -webkit-margin-before: -6%;
+                -webkit-margin-start: 3em;
+
+            }
+        }
         }
         .area:nth-child(3){
             margin-left: auto;
@@ -131,13 +150,13 @@
                 
             }
         }
-        @media screen and (max-width:1107px) {
+        @media screen and (max-width:1110px) {
             margin-top: 10%;
         img{
-            padding-top: 10%;
+            padding-top: 5%;
             left: 60%;
             width: 50%;
-            margin-bottom: 2%;
+            margin-bottom: 10%;
             -webkit-margin-before: -6%;
             
         }
