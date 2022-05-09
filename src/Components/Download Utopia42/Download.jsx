@@ -17,7 +17,7 @@ const Download = () => {
                     <div className="d2-img">
                         <img src={require('../../assets/download-area-img-2.png')} alt="" />
                     </div>
-                    <a href="#"><img src={DownloadLogos.p1_b} alt="windows" /></a>
+                    <a href="https://api.utopia42.club/static/windows.zip"><img src={DownloadLogos.p1_b} alt="windows" /></a>
                     {/* <a href="#"><img src={DownloadLogos.p2_b} alt="ios" /></a> */}
                     {/* <a href="#"><img src={DownloadLogos.p3_b} alt="android" className="and" /></a> */}
                 </div>

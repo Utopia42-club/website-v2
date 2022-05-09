@@ -7,7 +7,7 @@ const OurParnter = () => {
         <div className="partners">
             <h1>Our Partners</h1>
             <div className="slider">
-                <div className="slide-track">
+                {/* <div className="slide-track">
                     <div className="partner-logo">
                         <img src={PartnerLogos.Binance} alt="" />
                     </div>
@@ -34,8 +34,8 @@ const OurParnter = () => {
                     </div>
                     <div className="partner-logo">
                         <img src={Pl} alt="" />
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
             </div>
         </div>
     )

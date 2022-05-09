@@ -65,17 +65,17 @@ const Header = () => {
                                 <img src={HeaderImg.more} alt="" className="more" />
                                 <div className="social_dropdown">
                                     <li className="s-link">
-                                        <a href="https://discord.gg/mRCTBXkwfQ" target="_blank" ><img src={Discord} alt="" />
+                                        <a href="https://discord.gg/TphaKUZzHx" target="_blank" ><img src={Discord} alt="" />
                                             Join Discord Server
                                         </a>
                                     </li>
                                     <li className="s-link">
-                                        <a href="https://twitter.com/Utopia42C" target="_blank" ><img src={Twitter} alt="" />
+                                        <a href="https://twitter.com/utopia42c" target="_blank" ><img src={Twitter} alt="" />
                                             Follow on Twitter
                                         </a>
                                     </li>
                                     <li className="s-link">
-                                        <a href="https://instagram.com/Utopia42.club" target="_blank" ><img src={Instagram} alt="" />
+                                        <a href="https://www.instagram.com/utopia42.club" target="_blank" ><img src={Instagram} alt="" />
                                             Follow on Instagram
                                         </a>
                                     </li>

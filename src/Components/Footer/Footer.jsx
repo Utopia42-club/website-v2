@@ -33,7 +33,7 @@ const Footer = () => {
                         <h3>Download Utopia42 from your desired platforms</h3>
                     </div>
                     <div className="download-sec">
-                        <img src={DownloadLogos.p1} alt="" />
+                        <a href="https://api.utopia42.club/static/windows.zip"><img src={DownloadLogos.p1} alt="windows" /></a>
                         {/* <img src={DownloadLogos.p2} alt="" /> */}
                         {/* <img src={DownloadLogos.p3} alt="" /> */}
 

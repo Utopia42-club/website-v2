@@ -28,13 +28,13 @@ const Team = () => {
                         <h2>Matthew Ready</h2>
                         <h4>Founder</h4>
                     </div>
-                    <div className="im ">
+                    {/* <div className="im ">
                         <div className="image-area c2">
                             <img src={require("../../assets/f2.png")} alt="" />
                         </div>
                         <h2>Reza Bakhshandeh</h2>
                         <h4>Founder</h4>
-                    </div>
+                    </div> */}
                     {/* <div className="im ">
                         <div className="image-area c3">
                             <img src={require("../../assets/f3.png")} alt="" />
@@ -45,27 +45,27 @@ const Team = () => {
                 </div>
             </div>
             <div className="management">
-                <h1>Mangement</h1>
+                <h1>MANAGEMENT</h1>
                 <div className="imgs">
                     <div className="im ">
                         <div className="image-area c1">
                             <img src={require("../../assets/f1.png")} alt="" />
                         </div>
-                        <h2>Matt mardock</h2>
-                        <h4>Founder ceo</h4>
+                        <h2>Serge</h2>
+                        <h4>Marketing & Community</h4>
                     </div>
                     <div className="im ">
                         <div className="image-area c2">
                             <img src={require("../../assets/f2.png")} alt="" />
                         </div>
-                        <h2>Sarah Butt</h2>
-                        <h4>Founder ceo</h4>
+                        <h2>Margaret Howe</h2>
+                        <h4>Product Manager</h4>
                     </div><div className="im ">
                         <div className="image-area c3">
                             <img src={require("../../assets/f3.png")} alt="" />
                         </div>
                         <h2>LIA Johansan</h2>
-                        <h4>Founder ceo</h4>
+                        <h4>Development Lead</h4>
                     </div>
 
                 </div></div>
