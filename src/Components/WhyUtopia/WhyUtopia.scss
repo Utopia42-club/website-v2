@@ -1,5 +1,5 @@
 .why{
-    margin-top: 8em;
+    margin-top: -5em;
     padding-left: 8em;
     padding-right: 8em;
     @media screen and (min-width:1450px){
@@ -108,6 +108,7 @@
         @media screen and (max-width:1110px) {
             // margin-right: 1em;
             img{
+                padding-top: 5%;
                 left: 35%;
                 margin-bottom: 8%;
                 -webkit-margin-before: -4%;
@@ -127,7 +128,9 @@
             }
         }
         @media screen and (max-width:1110px) {
+            margin-top: 10%;
             img{
+                padding-top: 5%;
                 width: 40%;
                 margin-bottom: 10%;
                 margin-right: 3em;
