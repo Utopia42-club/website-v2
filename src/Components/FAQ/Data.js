@@ -36,4 +36,5 @@
         question:'Is there an official socials group?',
         answer:`We have an official <a href="https://t.me/Utopia42_Club">telegram</a> group, with other media presence on <a href="https://discord.gg/TphaKUZzHx">discord</a>, <a href="https://www.instagram.com/utopia42.club/">instagram</a> and <a href="https://twitter.com/utopia42c">twitter</>.` },
 ]
+
 export default Data

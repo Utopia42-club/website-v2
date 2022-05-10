@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import OurParnter from "../../Components/OurPartners/OurPartners";
 import './team.scss'
+import Github from '../../assets/icons8-github-24.svg'
+import linkedin from '../../assets/icons8-linkedin-24.png'
+import ManagementsUser from './Data'
 const Team = () => {
+    const [userData, setUserData] = useState(ManagementsUser);
+    console.log(userData.imgUrl)
     return (
         <div className="team">
             <div className="t_hero">
@@ -23,52 +28,38 @@ const Team = () => {
                 <div className="imgs">
                     <div className="im ">
                         <div className="image-area c1">
-                            <img src={require("../../assets/f1.png")} alt="" />
+                            <img src={require("../../assets/Matthew Ready.png")} alt="" />
                         </div>
                         <h2>Matthew Ready</h2>
-                        <h4>Founder</h4>
+                        <h4>Co-founder</h4>
+                        <a style={{marginRight: "10px"}} href="https://github.com/MeditationMatt"><img src={Github}/></a><a href="https://www.linkedin.com/in/matthew-ready-8a31221/"><img src={linkedin}/></a>
+                        
                     </div>
-                    {/* <div className="im ">
+                    <div className="im ">
                         <div className="image-area c2">
-                            <img src={require("../../assets/f2.png")} alt="" />
+                            <img src={require("../../assets/rezabakhshandeh.JPEG")} alt="" />
                         </div>
                         <h2>Reza Bakhshandeh</h2>
-                        <h4>Founder</h4>
-                    </div> */}
-                    {/* <div className="im ">
-                        <div className="image-area c3">
-                            <img src={require("../../assets/f3.png")} alt="" />
-                        </div>
-                        <h2>LIA Johansan</h2>
-                        <h4>Founder ceo</h4>
-                    </div> */}
+                        <h4>Co-founder, Blockchain Lead Developer</h4>
+                        <a style={{marginRight: "10px"}} href="https://github.com/bakhshandeh"><img src={Github}/></a><a href=""><img src={linkedin}/></a>
+                    </div>
                 </div>
             </div>
             <div className="management">
                 <h1>MANAGEMENT</h1>
                 <div className="imgs">
+                {userData.map((data) => (
                     <div className="im ">
-                        <div className="image-area c1">
-                            <img src={require("../../assets/f1.png")} alt="" />
+                        <div className="image-area">
+                            <img src= {data.imgUrl} alt="" />
                         </div>
-                        <h2>Serge</h2>
-                        <h4>Marketing & Community</h4>
+                        <h2>{data.name}</h2>
+                        <h4>{data.jobTitle}</h4>
+                        <a style={{marginRight: "10px"}} href={data.gitHubLink}><img src={Github}/></a><a href={data.linkedinLink}><img src={linkedin}/></a>
                     </div>
-                    <div className="im ">
-                        <div className="image-area c2">
-                            <img src={require("../../assets/f2.png")} alt="" />
-                        </div>
-                        <h2>Margaret Howe</h2>
-                        <h4>Product Manager</h4>
-                    </div><div className="im ">
-                        <div className="image-area c3">
-                            <img src={require("../../assets/f3.png")} alt="" />
-                        </div>
-                        <h2>LIA Johansan</h2>
-                        <h4>Development Lead</h4>
-                    </div>
-
-                </div></div>
+                    ))}
+                </div>
+            </div>
             <OurParnter />
         </div >
     )
