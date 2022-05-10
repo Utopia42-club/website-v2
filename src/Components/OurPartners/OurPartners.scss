@@ -22,13 +22,13 @@
       margin: 4rem auto auto auto;
       overflow: hidden;
       position: relative;
-      width: auto;
+      width: 100%;
   
       .slide-track {
-        margin-left: 200px;
-        animation: scroll 40s linear infinite;
+        margin-left: 100%;
+        animation: scroll 10s linear infinite;
         display: flex;
-        width: calc(150px * 14);
+        width: calc(40px * 14);
       }
       .partner-logo {
         // height: 100px;
