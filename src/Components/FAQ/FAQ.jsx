@@ -10,11 +10,9 @@ const FAQ = () => {
         <div className="faq" id="FAQ">
             <h1 className="faqh">SUPPORT & FAQ</h1>
             <div className="faq-questions">
-
                 {questions.map((question) => (
                     <Question key={question.id} {...question} />
                 ))}
-
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ import Metamastbtn from "../MetamaskButton/Metamaskbtn"
 import Twitter from '../../assets/icons8-twitter.svg';
 import Discord from '../../assets/icons8-discord.svg';
 import Instagram from '../../assets/icons8-instagram.svg';
-
+import Telegram from '../../assets/icons8-telegram.svg'
 
 const Header = () => {
     const [click, setClick] = useState(false)
@@ -77,6 +77,11 @@ const Header = () => {
                                     <li className="s-link">
                                         <a href="https://www.instagram.com/utopia42.club" target="_blank" ><img src={Instagram} alt="" />
                                             Follow on Instagram
+                                        </a>
+                                    </li>
+                                    <li className="s-link">
+                                        <a href="https://t.me/Utopia42_Club" target="_blank" ><img src={Telegram} alt="" />
+                                            Follow on Telegram
                                         </a>
                                     </li>
                                 </div>

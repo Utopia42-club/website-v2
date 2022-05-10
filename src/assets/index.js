@@ -24,14 +24,8 @@ const Proto = {
     p4:require('./proto4.png'),
 }
 const PartnerLogos = {
-    Binance: require("./binance.png"),
-    DataRob: require("./datarobot.png"),
-    Logic: require("./logic monitor.png"),
-    coursea: require("./coursera.png"),
-    Gpe: require("./gpe.png"),
-    Inter: require("./international.png"),
-    Nvidia: require("./nvidia (1).png"),
-    Cambridge: require("./cambridhge.png"),
+    Muon: require("./muon.png"),
+    Brightid: require("./brightid.png"),
 };
 const DownloadLogos = {
     p1: require('./Vector.png'),

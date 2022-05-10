@@ -25,6 +25,7 @@
       width: auto;
   
       .slide-track {
+        margin-left: 200px;
         animation: scroll 40s linear infinite;
         display: flex;
         width: calc(150px * 14);

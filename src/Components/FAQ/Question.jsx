@@ -21,7 +21,7 @@ const Question = ({ question, answer }) => {
           </div>
         </div>
         <div className={expanded ? 'active content-faq' : 'content-faq'} >
-          {answer}
+        <div dangerouslySetInnerHTML={{__html:answer}}></div>
         </div>
       </div>
 

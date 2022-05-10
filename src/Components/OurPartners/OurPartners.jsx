@@ -7,14 +7,14 @@ const OurParnter = () => {
         <div className="partners">
             <h1>Our Partners</h1>
             <div className="slider">
-                {/* <div className="slide-track">
+                <div className="slide-track">
                     <div className="partner-logo">
-                        <img src={PartnerLogos.Binance} alt="" />
+                        <img src={PartnerLogos.Muon} alt="" />
                     </div>
                     <div className="partner-logo">
-                        <img src={PartnerLogos.DataRob} alt="" />
+                        <img src={PartnerLogos.Brightid} alt="" />
                     </div>
-                    <div className="partner-logo">
+                    {/* <div className="partner-logo">
                         <img src={PartnerLogos.Logic} alt="" />
                     </div>
                     <div className="partner-logo">
@@ -35,7 +35,7 @@ const OurParnter = () => {
                     <div className="partner-logo">
                         <img src={Pl} alt="" />
                     </div> */}
-                {/* </div> */}
+                </div>
             </div>
         </div>
     )
