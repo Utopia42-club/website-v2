@@ -54,7 +54,7 @@ const Team = () => {
                             <img src= {data.imgUrl} alt="" />
                         </div>
                         <h2>{data.name}</h2>
-                        <h4>{data.jobTitle}</h4>
+                        <h4 style={{marginBottom:"5px"}}>{data.jobTitle}</h4>
                         <a style={{marginRight: "10px"}} href={data.gitHubLink} target="_blank"><img src={Github}/></a><a href={data.linkedinLink} target="_blank"><img src={linkedin}/></a>
                     </div>
                     ))}
