@@ -8,7 +8,7 @@ import OurParnter from '../../Components/OurPartners/OurPartners'
 import Announcements from '../../Components/Announcements/Announcements'
 import Download from '../../Components/Download Utopia42/Download'
 import FAQ from '../../Components/FAQ/FAQ'
-// import CookieConsent, { Cookies, getCookieConsentValue, resetCookieConsentValue } from "react-cookie-consent";
+import CookieConsent, { Cookies, getCookieConsentValue, resetCookieConsentValue } from "react-cookie-consent";
 
 const HomePage = () => {
     return (
@@ -22,7 +22,7 @@ const HomePage = () => {
             <Download />
             <Announcements />
 
-            {/* <CookieConsent
+            <CookieConsent
             location="bottom"
             acceptButton
             buttonText="Accept All Cookies"
@@ -40,7 +40,7 @@ const HomePage = () => {
             onDecline = {(co) => {console.log(resetCookieConsentValue(), getCookieConsentValue(), co)}}
             >
             <p style={{color:'#000'}}>This website uses cookies to enhance the user experience.</p>
-            </CookieConsent> */}
+            </CookieConsent>
         </div>
     )
     

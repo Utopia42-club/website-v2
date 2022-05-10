@@ -51,9 +51,9 @@ const ManagementsUser = [
     {
         name:' Mohammad Jafari',
         jobTitle:'Blockchain Developer',
-        gitHubLink:  '',
+        gitHubLink:  'https://github.com/jafari-mi',
         linkedinLink:  'https://www.linkedin.com/in/mohammad-jafari-b38b80142/',
-        imgUrl: ''
+        imgUrl: require("../../assets/imanJafari.jpeg")
     },
     {
         name:'Abbas Nosrati',
