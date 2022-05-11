@@ -8,6 +8,7 @@ import Twitter from '../../assets/icons8-twitter.svg';
 import Discord from '../../assets/icons8-discord.svg';
 import Instagram from '../../assets/icons8-instagram.svg';
 import Telegram from '../../assets/icons8-telegram.svg'
+import GitHub from '../../assets/icons8-gitHub.svg'
 
 const Header = () => {
     const [click, setClick] = useState(false)
@@ -82,6 +83,11 @@ const Header = () => {
                                     <li className="s-link">
                                         <a href="https://t.me/Utopia42_Club" target="_blank" ><img src={Telegram} alt="" />
                                             Follow on Telegram
+                                        </a>
+                                    </li>
+                                    <li className="s-link">
+                                        <a href="https://github.com/Utopia42-club/" target="_blank" ><img src={GitHub} alt="" />
+                                            Follow on Github
                                         </a>
                                     </li>
                                 </div>
