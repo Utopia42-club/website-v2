@@ -11,6 +11,7 @@
     transform: translate3d(-50%, -50%, 9999990px);
     width: 95%;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    opacity: .7;
   }
   
   .overlayclass { 
@@ -29,7 +30,7 @@
       border-radius: 15px;
       width: fit-content;
       background-color: #fff;
-      color:#000;
+      color:rgb(80, 79, 79);
       padding: 10px;
       margin-right: 10px;
 
