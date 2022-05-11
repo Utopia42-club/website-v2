@@ -6,7 +6,6 @@ import linkedin from '../../assets/icons8-linkedin-24.png'
 import ManagementsUser from './Data'
 const Team = () => {
     const [userData, setUserData] = useState(ManagementsUser);
-    console.log(userData.imgUrl)
     return (
         <div className="team">
             <div className="t_hero">
