@@ -35,7 +35,7 @@ function App() {
                     backgroundColor: '#fff',
                     color:'#000'
                 }}
-                style={{ background: "#fff", borderTop:'2px solid #814F8C',}}
+                style={{ background: "#fff", borderTop:'2px solid #814F8C', width:'100%'}}
                 buttonStyle= {{ cursor: 'pointer',
                     alignItems: 'center',
                     border: '2px solid #814F8C',
