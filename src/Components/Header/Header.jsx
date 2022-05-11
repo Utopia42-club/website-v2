@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import './Header.scss'
 import { HeaderImg } from '../../assets/index.js'
-import { Link } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
 import PlayButton from "../PlayButton/PlayButton"
 import Metamastbtn from "../MetamaskButton/Metamaskbtn"
 import Twitter from '../../assets/icons8-twitter.svg';
@@ -58,7 +58,8 @@ const Header = () => {
                                 </div>
                             </li>
                             <li>
-                                <a href="#FAQ">Support & FAQ</a>
+                                {/* <a href="/#FAQ">Support & FAQ</a> */}
+                                <Link to='/#FAQ'>Support & FAQ</Link>
                                 {/* <Link to="/" onClick={LinkClick}></Link> */}
                             </li>
                             <li className="social">
