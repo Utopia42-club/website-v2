@@ -128,6 +128,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 4em;
+        margin-right: 1px;
         
         .im{
             width: 28%;
@@ -140,10 +141,11 @@
                 height: auto;
                 margin-top: 4em;
             }
-            .image-area{            
+            .image-area{
+                margin-left: 10%;            
                 border-radius: 14px;
                 overflow: hidden;
-                max-width: 250px;
+                max-width: 360px;
                 img{
                     width: 100%;
                     height: 395px;

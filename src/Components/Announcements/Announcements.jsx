@@ -2,10 +2,13 @@ import React from "react";
 import './announcements.scss'
 import { ButtonIcons } from '../../assets/index.js'
 import Imf from '../../assets/announcement_img.png'
+// import { Widget } from '@typeform/embed-react'
+
 const Announcements = () => {
     return (
         <div className="announce">
             <h1>Announcements</h1>
+            {/* <Widget id="EhKO2gNY" style={{ width: '100%', height: '500px' }} className="my-form" /> */}
             <div className="main-anno">
                 <div className="content">
                     <h1>New Build Contest</h1>
