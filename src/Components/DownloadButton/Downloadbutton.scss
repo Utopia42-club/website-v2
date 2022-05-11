@@ -24,7 +24,7 @@
     }
   }
   .bt:hover{
-    background-color: #814F8C;
+    background-color: #814F8C !important;
     h4{
       color: #fff;
     }
@@ -39,4 +39,20 @@
       border: 2px solid #fff;
     }
    
+  }
+
+  .btnCookie{
+    cursor: 'pointer';
+    align-items: 'center';
+      border: '2px solid #814F8C';
+      border-radius: '15px';
+      width: 'fit-content';
+      background-color: '#fff';
+      color:'#000'
+
+  }
+
+  .btnCookie:hover{
+    background-color: #814F8C !important;
+    color: #fff !important;
   }

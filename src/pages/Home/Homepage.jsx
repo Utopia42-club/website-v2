@@ -8,7 +8,6 @@ import OurParnter from '../../Components/OurPartners/OurPartners'
 import Announcements from '../../Components/Announcements/Announcements'
 import Download from '../../Components/Download Utopia42/Download'
 import FAQ from '../../Components/FAQ/FAQ'
-// import CookieConsent, { Cookies, getCookieConsentValue, resetCookieConsentValue } from "react-cookie-consent";
 
 const HomePage = () => {
     return (
@@ -21,26 +20,6 @@ const HomePage = () => {
             <FAQ />
             <Download />
             <Announcements />
-
-            {/* <CookieConsent
-            location="bottom"
-            acceptButton
-            buttonText="Accept All Cookies"
-            declineButtonText = "Reject All"
-            declineCookieValue
-            cookieValue
-            enableDeclineButton
-            cookieName="Utopia42"
-            declineButtonStyle = {{ backgroundColor:'#fff',border:'1px solid #ccc',color: "#0b0f3b", fontSize: "14px"}}
-            style={{ background: "#FFF" }}
-            buttonStyle={{  backgroundColor:'#fff',border:'1px solid #ccc',color: "#0b0f3b", fontSize: "14px" }}
-            expires={150}
-            debug={true}
-            onAccept = {(co) => {console.log(co)}}
-            onDecline = {(co) => {console.log(resetCookieConsentValue(), getCookieConsentValue(), co)}}
-            >
-            <p style={{color:'#000'}}>This website uses cookies to enhance the user experience.</p>
-            </CookieConsent> */}
         </div>
     )
     
