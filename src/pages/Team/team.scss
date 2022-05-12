@@ -187,6 +187,21 @@
                 margin-left: 10%;
             }
 
+            @media screen and(max-width:414px) {
+                width: 100%;
+                // margin-right: 10px;
+                height: auto;
+                margin-top: 2em;
+                // margin-left: 10%;
+            }
+
+            @media screen and(max-width:375px) {
+                width: 100%;
+                // margin-right: 10px;
+                height: auto;
+                margin-top: 2em;
+                // margin-left: 10%;
+            }
 
             .image-area{
                 margin-left: 10%;            
@@ -201,6 +216,27 @@
                     margin-left:17%;
                     height: auto;
                     margin-top: 4em;
+                }
+                @media screen and(max-width:540px) {
+                    width: 100%;
+                    // margin-right: 10px;
+                    height: auto;
+                    margin-top: 2em;
+                    margin-left: 4%;
+                }  
+                @media screen and(max-width:414px) {
+                    width: 100%;
+                    // margin-right: 10px;
+                    height: auto;
+                    margin-top: 2em;
+                    margin-left: -10px;
+                }    
+                @media screen and(max-width:375px) {
+                    width: 100%;
+                    // margin-right: 20px;
+                    height: auto;
+                    margin-top: 2em;
+                    margin-left: -10px;
                 }
             
         }
