@@ -24,6 +24,8 @@ const Footer = () => {
                 <div className="area-3">
                     <h2>Others</h2>
                     <a href="/#FAQ">Support & FAQ</a>
+                    <p><Link to='/Terms'>Terms</Link></p>
+                    <p><Link to='/Policy'>Policy</Link></p>
                     {/* <a href=".social"><h4>Social</h4></a> */}
                     {/* <h4>UNBC</h4> */}
                 </div>

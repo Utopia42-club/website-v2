@@ -7,6 +7,8 @@ import Footer from './Components/Footer/Footer';
 import UNBC from './pages/UNBC/UNBC';
 import Roadmap from './pages/Roadmap/Roadmap';
 import Popup from './Components/Popups/Popup';
+import Terms from './pages/Terms/Terms';
+import Policy from './pages/Policy/Policy';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/team' element={<OurTeam />}/>
         <Route path='/roadmap' element={<Roadmap/>} />
+        <Route path='/Terms' element={<Terms/>} />
+        <Route path='/Policy' element={<Policy/>} />
         <Route path='/unbc' element={<UNBC/>}/>
       </Routes>
       <Footer/>
