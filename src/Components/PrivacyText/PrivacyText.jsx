@@ -1,9 +1,9 @@
-import './PolicyText.scss'
+import './PrivacyText.scss'
 
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 
-const PolicyText = () => {
+const PrivacyText = () => {
   return (
     <div className='mainPolicy'>
         <h3>PRIVACY NOTICE</h3>
@@ -43,19 +43,19 @@ const PolicyText = () => {
 
 <h4>TABLE OF CONTENTS</h4>
 
-<p><Link to='/Policy#0001'>1. WHAT INFORMATION DO WE COLLECT?</Link></p>
-<p><Link to='/Policy#0002'>2. HOW DO WE PROCESS YOUR INFORMATION?</Link></p>
-<p><Link to='/Policy#0003'>3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</Link></p>
-<p><Link to='/Policy#0004'>4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</Link></p>
-<p><Link to='/Policy#0005'>5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</Link></p>
-<p><Link to='/Policy#0006'>6. HOW LONG DO WE KEEP YOUR INFORMATION?</Link></p>
-<p><Link to='/Policy#0007'>7. DO WE COLLECT INFORMATION FROM MINORS?</Link></p>
-<p><Link to='/Policy#0008'>8. WHAT ARE YOUR PRIVACY RIGHTS?</Link></p>
-<p><Link to='/Policy#0009'>9. CONTROLS FOR DO-NOT-TRACK FEATURES</Link></p>
-<p><Link to='/Policy#0010'>10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</Link></p>
-<p><Link to='/Policy#0011'>11. DO WE MAKE UPDATES TO THIS NOTICE?</Link></p>
-<p><Link to='/Policy#0012'>12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</Link></p>
-<p><Link to='/Policy#0013'>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</Link></p>
+<p><Link to='/Privacy#0001'>1. WHAT INFORMATION DO WE COLLECT?</Link></p>
+<p><Link to='/Privacy#0002'>2. HOW DO WE PROCESS YOUR INFORMATION?</Link></p>
+<p><Link to='/Privacy#0003'>3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</Link></p>
+<p><Link to='/Privacy#0004'>4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</Link></p>
+<p><Link to='/Privacy#0005'>5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</Link></p>
+<p><Link to='/Privacy#0006'>6. HOW LONG DO WE KEEP YOUR INFORMATION?</Link></p>
+<p><Link to='/Privacy#0007'>7. DO WE COLLECT INFORMATION FROM MINORS?</Link></p>
+<p><Link to='/Privacy#0008'>8. WHAT ARE YOUR PRIVACY RIGHTS?</Link></p>
+<p><Link to='/Privacy#0009'>9. CONTROLS FOR DO-NOT-TRACK FEATURES</Link></p>
+<p><Link to='/Privacy#0010'>10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</Link></p>
+<p><Link to='/Privacy#0011'>11. DO WE MAKE UPDATES TO THIS NOTICE?</Link></p>
+<p><Link to='/Privacy#0012'>12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</Link></p>
+<p><Link to='/Privacy#0013'>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</Link></p>
 
 <h4 id='0001'>1. WHAT INFORMATION DO WE COLLECT?</h4>
 
@@ -356,4 +356,4 @@ const PolicyText = () => {
   )
 }
 
-export default PolicyText
+export default PrivacyText

@@ -8,7 +8,7 @@ import UNBC from './pages/UNBC/UNBC';
 import Roadmap from './pages/Roadmap/Roadmap';
 import Popup from './Components/Popups/Popup';
 import Terms from './pages/Terms/Terms';
-import Policy from './pages/Policy/Policy';
+import Privacy from './pages/Privacy/Privacy';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path='/team' element={<OurTeam />}/>
         <Route path='/roadmap' element={<Roadmap/>} />
         <Route path='/Terms' element={<Terms/>} />
-        <Route path='/Policy' element={<Policy/>} />
+        <Route path='/Privacy' element={<Privacy/>} />
         <Route path='/unbc' element={<UNBC/>}/>
       </Routes>
       <Footer/>
