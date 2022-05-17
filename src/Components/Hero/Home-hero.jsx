@@ -13,7 +13,7 @@ const HomeHero = () => {
                 <div className="main-text">
                     <div className="main">
                         <h1>Utopia42</h1>
-                        <h2>a metaverse without limits where land owners can build skyhigh buildings.</h2>
+                        <h2>The Sky is not the limit. Utopia42 is a decentralized <a target="_blank" href="https://en.wikipedia.org/wiki/Multiverse">Multiverse</a> where everyone can build their own Metaverse.</h2>
                         <div className="buttons">
                             <PlayButton />
                             <a href="#download">                            <DownloadButton />

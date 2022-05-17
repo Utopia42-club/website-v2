@@ -9,13 +9,13 @@ const data = [
     {
         id: 2,
         title: 'Universal Token',
-        para: 'Utopia42.club will soon be integrated with a universal basic income token called UNBC (i) that will enable the users to buy in-game items, buy more land, participate in the Utopia42 DAO governance (i) or sell the token for profit.',
+        para: 'Utopia42.club will soon be integrated with a universal basic income token called UNBC that will enable users to buy in-game items and land. Decisions regarding the direction of development and growth of Utopia42 are made by members of the <a href="https://vote.utopia42.club">Utopia42 DAO governance</a>.',
         img:WhyUto.im2
     },
     {
         id: 3,
         title: 'Secure network',
-        para: 'Utopia42 currently runs on polygon main net, so saving your world data is inexpensive and secured forever in the ethereum/polygon blockchains.  We are working to enhance cross chain compatibility and decentralized identity with our friends at Muon Network and BrightID.',
+        para: 'Utopia42 currently runs on polygon main net, so saving your world data is inexpensive and secured forever in the ethereum/polygon blockchains.  We are working to enhance cross chain compatibility and decentralized identity with our friends at <a href="https://www.muon.net/" target="_blank">Muon Network</a> and <a href="https://www.brightid.org/" target="_blank">BrightID</a>.',
         img:WhyUto.im3
     }
 ]

@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="area-3">
                     <h2>Others</h2>
-                    <a href="/#FAQ">Support & FAQ</a>
+                    <Link to='/#FAQ'>Support & FAQ</Link>
                     <p><Link to='/Terms'>Terms</Link></p>
                     <p><Link to='/Policy'>Policy</Link></p>
                     {/* <a href=".social"><h4>Social</h4></a> */}

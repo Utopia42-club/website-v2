@@ -9,10 +9,10 @@ const OurParnter = () => {
             <div className="slider">
                 <div className="slide-track">
                     <div className="partner-logo">
-                        <img src={PartnerLogos.Muon} alt="" />
+                        <a href="https://www.muon.net/" target="_blank"><img src={PartnerLogos.Muon} alt="" /></a>
                     </div>
                     <div className="partner-logo">
-                        <img src={PartnerLogos.Brightid} alt="" />
+                        <a href="https://www.brightid.org/" target="_blank"><img src={PartnerLogos.Brightid} alt="" /></a>
                     </div>
                     {/* <div className="partner-logo">
                         <img src={PartnerLogos.Logic} alt="" />

@@ -15,7 +15,7 @@ const WhyUtopia = () => {
                                     <img src={main.img} alt="" />
                                 </div>
 
-                                <h4>{main.para}</h4>
+                                <h4 dangerouslySetInnerHTML={{__html:main.para}}></h4>
                             </div>
                         )
                     })
