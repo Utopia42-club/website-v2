@@ -2,7 +2,7 @@
     {
         id:1,
         question:'What is UTOPIA42?',
-        answer:'Utopia42 is a decentralized Multiverse[link to wikipedia]. Different organizations, communities and projects can deploy their own metaverse and start to build their own world.'
+        answer:'Utopia42 is a decentralized <a href="https://en.wikipedia.org/wiki/Multiverse" target="_blank">Multiverse</a>. Different organizations, communities and projects can deploy their own metaverse and start to build their own world.'
     },
     {
         id:2,
@@ -29,7 +29,7 @@
     {
         id:7,
         question:'Who is managing Utopia42?',
-        answer:'Utopia42 is a decentralized autonomous organization (DAO). There is a governance token and a voting platform[link to vote.utopia42.club] the community members and developers can create proposals and vote to define the future roadmap of the project.'
+        answer:'Utopia42 is a decentralized autonomous organization (DAO). There is a governance token and a voting <a href="http://www.vote.utopia42.club" target="blank">platform</a> the community members and developers can create proposals and vote to define the future roadmap of the project.'
     },
     {
         id:8,
