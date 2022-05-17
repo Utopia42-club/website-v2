@@ -37,7 +37,7 @@
         justify-content: space-between;
         .question {
           cursor: pointer;
-          font-size: 2.5rem;
+          font-size: 2rem;
         //   font-family: $sofia;
           color: #814F8C;
           font-weight: 500;
@@ -87,4 +87,8 @@
       }
     }
   }
+}
+
+#faq > a {
+  color:red
 }
