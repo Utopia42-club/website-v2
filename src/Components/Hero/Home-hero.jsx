@@ -16,8 +16,7 @@ const HomeHero = () => {
                         <h2>The Sky is not the limit. Utopia42 is a decentralized <a target="_blank" href="https://en.wikipedia.org/wiki/Multiverse">Multiverse</a> where everyone can build their own Metaverse.</h2>
                         <div className="buttons">
                             <PlayButton />
-                            <a href="#download">                            <DownloadButton />
-                            </a>
+                            <DownloadButton />
                         </div>
                     </div>
                 </div>
