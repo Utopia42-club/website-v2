@@ -10,7 +10,7 @@ const RoadmapHero = () => {
                 <img src={require('../../assets/why1.png')} alt="" className="hero-img1" />
                 <h1>Utopia42 ROADMAP</h1>
                 <div className="desc">
-                    <h2>JOIN UTOPIA42 IN A JOURNEY OF MAKING METAVERSER HUGE, BEAUTIFUL AND ENJOYABLE</h2>
+                    <h2>JOIN UTOPIA42 IN A JOURNEY OF MAKING METAVERSES HUGE, BEAUTIFUL AND ENJOYABLE</h2>
                 </div>
                 <div className="explore">
                     <div className="bt">
