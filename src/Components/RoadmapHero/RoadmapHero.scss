@@ -22,12 +22,14 @@
         background-image: url('../../assets/hero-bg-tablet.png');
         height: 300vw;
         background-position-y: 0em;
-
     }
     .main{
         text-align: center;
         padding-top: 8em;
-     
+        .utopia42roadmap{
+            width: 90%;
+            margin-top: 50px;
+        }
         .hero-img1{
             @media screen and(max-width:950px){
                 display: none;
