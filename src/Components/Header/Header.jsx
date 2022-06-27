@@ -108,11 +108,11 @@ const Header = () => {
 
                     </ul>
                 </div>
-                {/* <div className="hamburger" id="hamburger" onClick={btnclick}>
+                <div className="hamburger" id="hamburger" onClick={btnclick}>
                     <div></div>
                     <div></div>
                     <div></div>
-                </div> */}
+                </div>
             </nav>
         </div>
         // </div>
