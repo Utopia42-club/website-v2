@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonIcons } from '../../assets/index.js'
 import './metamaskbtn.scss'
-import { useMetaMask } from "metamask-react";
+// import { useMetaMask } from "metamask-react";
 const Metamastbtn = () => {
     //     const ConnectMeta = () => {
     //         const { status, connect, account, chainId, ethereum } = useMetaMask();

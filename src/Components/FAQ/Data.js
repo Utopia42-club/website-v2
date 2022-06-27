@@ -19,7 +19,7 @@
     }, {
         id:5,
         question:'How can individuals and organizations apply to deploy their Metaverse?',
-        answer:'A form will be available soon on the Utopia42.club website. A tutorial for how to build your own world is under development.'
+        answer:'<a href="https://forms.gle/xnHYDNQ2R3HwdVAZ8" target="_blank">Apply here</a> to join our waitlist for deploying your own Metaverse.'
     },
     {
         id:6,

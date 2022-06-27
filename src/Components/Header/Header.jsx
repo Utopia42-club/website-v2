@@ -3,7 +3,6 @@ import './Header.scss'
 import { HeaderImg } from '../../assets/index.js'
 import { HashLink as Link } from 'react-router-hash-link';
 import PlayButton from "../PlayButton/PlayButton"
-import Metamastbtn from "../MetamaskButton/Metamaskbtn"
 import Twitter from '../../assets/icons8-twitter.svg';
 import Discord from '../../assets/icons8-discord.svg';
 import Instagram from '../../assets/icons8-instagram.svg';

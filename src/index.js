@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from "react-router-dom";
-import { MetaMaskProvider } from "metamask-react";
+// import { MetaMaskProvider } from "metamask-react";
 ReactDOM.render(
   <HashRouter hashType="hashbang">
-      <MetaMaskProvider>
+      {/* <MetaMaskProvider> */}
         <App />
-      </MetaMaskProvider>
+      {/* </MetaMaskProvider> */}
   </HashRouter>,
   document.getElementById('root')
 );
