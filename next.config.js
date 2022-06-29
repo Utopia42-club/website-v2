@@ -1,6 +1,7 @@
 
 module.exports = {
-  future: {
+distDir: 'build', 
+ future: {
     webpack5: true,
   }
 }
