@@ -35,12 +35,12 @@ const Footer = () => {
                         <h2>Downloads</h2>
                         <h3>Download Utopia42 from your desired platforms</h3>
                     </div>
-                    <div className="download-sec">
-                        <a href="https://api.utopia42.club/static/windows.zip"><img src={DownloadLogos.p1} alt="windows" /></a>
+                    {/* <div className="download-sec"> */}
+                        {/* <a href="https://api.utopia42.club/static/windows.zip"><img src={DownloadLogos.p1} alt="windows" /></a> */}
                         {/* <img src={DownloadLogos.p2} alt="" /> */}
                         {/* <img src={DownloadLogos.p3} alt="" /> */}
 
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
