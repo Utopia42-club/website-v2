@@ -1,0 +1,52 @@
+.downloadBtn{
+    display: flex;
+    align-items: center;
+    border: 2px solid #2C2C2C;
+    border-radius: 15px;
+    padding: 1em 1.2em;
+    width: fit-content;
+    cursor: pointer;
+    .icon{
+      background-color: #2C2C2C;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+    h4{
+      color: #2C2C2C;
+      padding-left: 1em;
+      font-weight: 600;
+      text-transform: uppercase;
+
+    }
+  }
+  .downloadBtn:hover{
+    background-color: #2C2C2C;
+    h4{
+      color: #fff;
+    }
+    .down-area{
+      width: 28px;
+      height: 28px;
+      // padding: 8px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      border: 2px solid #fff;
+    img{
+      width: 50%;
+    }
+    }
+  }
+
+
+  .bt:hover{
+    a{color: white !important;}
+    color: white !important;
+  }

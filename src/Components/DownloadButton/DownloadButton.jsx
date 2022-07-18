@@ -9,7 +9,7 @@ const DownloadButton = () => {
                     <img src={ButtonIcons.Download} alt="" className="white-play" />
                 </div>
             </div>
-            <a href="" target="_blank"><h4>Download now</h4></a>
+            <a href={require('../../Files/Utopia42_Whitepaper.pdf')} target="_blank"><h4>Download Whitepaper</h4></a>
         </div>
     )
 }

@@ -26,6 +26,8 @@ const Proto = {
 const PartnerLogos = {
     Muon: require("./muon.png"),
     Brightid: require("./brightid.png"),
+    NewPerspectivellc: require("./4_webp.webp"),
+    ReadPlayer: require("./readPlayer.png"),
 };
 const DownloadLogos = {
     p1: require('./Vector.png'),

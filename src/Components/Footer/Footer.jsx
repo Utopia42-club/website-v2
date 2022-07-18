@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="area-2">
                     <h2>About</h2>
                     <li><Link to='/team'>Our Team</Link></li>
-                    <li><a href={require('../../Files/Utopia42_Whitepaper.pdf')}>Whitepaper</a></li>
+                    <li><a target="_blank" href={require('../../Files/Utopia42_Whitepaper.pdf')}>Whitepaper</a></li>
                     <li><Link to='/roadmap'>Roadmap</Link></li>
                 </div>
                 <div className="area-3">
@@ -31,10 +31,10 @@ const Footer = () => {
                     {/* <h4>UNBC</h4> */}
                 </div>
                 <div className="area-4">
-                    <div className="head-area-3">
+                    {/* <div className="head-area-3">
                         <h2>Downloads</h2>
                         <h3>Download Utopia42 from your desired platforms</h3>
-                    </div>
+                    </div> */}
                     {/* <div className="download-sec"> */}
                         {/* <a href="https://api.utopia42.club/static/windows.zip"><img src={DownloadLogos.p1} alt="windows" /></a> */}
                         {/* <img src={DownloadLogos.p2} alt="" /> */}

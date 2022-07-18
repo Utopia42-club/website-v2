@@ -18,9 +18,9 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="team_img">
+                {/* <div className="team_img">
                     <img src={require('../../assets/teamimg.png')} alt="" className="team_img" />
-                </div>
+                </div> */}
             </div>
             < div className="founder">
                 <h1>FOUNDERS</h1>
@@ -40,12 +40,13 @@ const Team = () => {
                         </div>
                         <h2>Reza Bakhshandeh</h2>
                         <h4>Co-founder, Blockchain Lead Developer</h4>
-                        <a style={{marginRight: "10px"}} href="https://github.com/bakhshandeh"><img src={Github}/></a><a href=""><img src={linkedin}/></a>
+                        <a style={{marginRight: "10px"}} href="https://github.com/bakhshandeh"><img src={Github}/></a>
+                        {/* <a href=""><img src={linkedin}/></a> */}
                     </div>
                 </div>
             </div>
             <div className="management">
-                <h1>MANAGEMENT</h1>
+                <h1>Development & Marketing</h1>
                 <div className="imgs">
                 {userData.map((data) => (
                     <div className="im ">
@@ -54,7 +55,16 @@ const Team = () => {
                         </div>
                         <h2>{data.name}</h2>
                         <h4 style={{marginBottom:"5px"}}>{data.jobTitle}</h4>
-                        <a style={{marginRight: "10px"}} href={data.gitHubLink} target="_blank"><img src={Github}/></a><a href={data.linkedinLink} target="_blank"><img src={linkedin}/></a>
+                        {data.gitHubLink != null ?
+                        <a style={{marginRight: "10px"}} href={data.gitHubLink} target="_blank"><img src={Github}/></a>
+                        :
+                        ''
+                        }
+                        {data.linkedinLink != null ?
+                        <a href={data.linkedinLink} target="_blank"><img src={linkedin}/></a>
+                        :
+                        ''
+                        }
                     </div>
                     ))}
                 </div>

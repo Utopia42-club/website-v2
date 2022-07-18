@@ -2,8 +2,8 @@ const ManagementsUser = [
     {
         name:'Serge Müller',
         jobTitle:'EU Marketing & Community',
-        gitHubLink:  '',
-        linkedinLink:  '',
+        gitHubLink:  null,
+        linkedinLink:  null,
         imgUrl: require("../../assets/serge.jpg")
     },
     {

@@ -14,27 +14,13 @@ const OurParnter = () => {
                     <div className="partner-logo">
                         <a href="https://www.brightid.org/" target="_blank"><img src={PartnerLogos.Brightid} alt="" /></a>
                     </div>
-                    {/* <div className="partner-logo">
-                        <img src={PartnerLogos.Logic} alt="" />
+                    
+                    <div className="partner-logo">
+                        <a href="https://www.newperspectivellc.info/" target="_blank"><img height="55px;" src={PartnerLogos.NewPerspectivellc} alt="" /></a>
                     </div>
                     <div className="partner-logo">
-                        <img src={PartnerLogos.coursea} alt="" />
+                        <a href="https://readyplayer.me/" target="_blank"><img height="55px;" src={PartnerLogos.ReadPlayer} alt="" /></a>
                     </div>
-                    <div className="partner-logo">
-                        <img src={PartnerLogos.Gpe} alt="" />
-                    </div>
-                    <div className="partner-logo">
-                        <img src={PartnerLogos.Inter} alt="" />
-                    </div>
-                    <div className="partner-logo">
-                        <img src={PartnerLogos.Nvidia} alt="" />
-                    </div>
-                    <div className="partner-logo">
-                        <img src={PartnerLogos.Cambridge} alt="" />
-                    </div>
-                    <div className="partner-logo">
-                        <img src={Pl} alt="" />
-                    </div> */}
                 </div>
             </div>
         </div>

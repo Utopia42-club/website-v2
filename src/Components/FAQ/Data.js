@@ -7,7 +7,7 @@
     {
         id:2,
         question:'What is a Multiverse?',
-        answer:'Metaverse to Multiverse is like comparing Ethereum to Cryptocurrency. On a Multiverse platform everyone can run his/her own server platform and start to build a 3D world.'
+        answer:'Multiverse to Metaverse is like Ethereum to Bitcoin networks. On a Multiverse platform everyone can run his/her own verse and start to build a metaverse.'
     }, {
         id:3,
         question:'What blockchain is UTOPIA42 built on?',
@@ -38,8 +38,8 @@
     },
     {
         id:9,
-        question:'How can I become a citizen of Utopia42?',
-        answer:`Utopia42 uses the <a href="https://www.brightid.org/" target="_blank">BrightID</a> protocol to allow people to prove to applications that they aren’t using multiple accounts. It solves the unique identity problem through the creation and analysis of a social graph. BrightID is self-issued and verified by close friends or relatives. Personal data is not shared with a central organization. The BrightID <a href="https://www.brightid.org/whitepaper" target="_blank">whitepaper</a> is available for more technical details`
+        question:'What is Utopia42 Citizen ID?',
+        answer:`Utopia42 is a world of metaverse. Each user can mint a Soulbound NFT as a Citizen ID and connect it to BrightID to prove their uniqueness. Utopia42 will have a community of unique people in the world. Utopia42 uses the <a href="https://www.brightid.org/" target="_blank">BrightID</a> protocol to allow people to prove to applications that they aren’t using multiple accounts. It solves the unique identity problem through the creation and analysis of a social graph. BrightID is self-issued and verified by close friends or relatives. Personal data is not shared with a central organization. The BrightID <a href="https://www.brightid.org/whitepaper" target="_blank">whitepaper</a> is available for more technical details.`
     },
     {
         id:10,

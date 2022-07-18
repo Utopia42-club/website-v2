@@ -1,8 +1,13 @@
 .hero{
     background-size: cover;
+    
     background-repeat: no-repeat;
     height: 78vw;
     background-image:url('../../assets/hero-bg-after.png');
+
+    @media screen and (min-width:995px) {
+        margin-top: -70px;
+    }
 
     @media screen and (min-width:1700px) {
         background-image:url('../../assets/hero-bg.png');
@@ -15,7 +20,7 @@
     }
     @media screen and(max-width:600px) and (min-width:350px){
         background-image: url('../../assets/hero-bg-tablet.png');
-        height: 250vw;
+        height: 150vw;
     }
     @media screen and(max-width:350px) {
         background-image: url('../../assets/hero-bg-tablet.png');
@@ -54,7 +59,7 @@
            }
        }
        .dummy{
-           height: 70vw;
+           height: 60vw;
            @media screen and(max-width:850px) {
                display: none;
            }

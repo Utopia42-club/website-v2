@@ -1,6 +1,14 @@
 .footer {
     background-color: #f4f7ff;
     padding: 6em 8em;
+
+    .area-3 > p {
+        padding-bottom: 7px;
+    }
+
+    li{
+        padding-bottom : 5px;
+    }
     // margin-top: 8em;
     @media screen and (max-width: 1000px) {
         padding: 4em;

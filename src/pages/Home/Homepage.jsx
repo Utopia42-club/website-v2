@@ -3,10 +3,10 @@ import Footer from '../../Components/Footer/Footer'
 import HomeHero from '../../Components/Hero/Home-hero'
 import WhyUtopia from '../../Components/WhyUtopia/WhyUtopia'
 import Protocol from '../../Components/Protocol/Protocol'
-import OurVideo from '../../Components/Our Video/OurVideo'
+// import OurVideo from '../../Components/Our Video/OurVideo'
 import OurParnter from '../../Components/OurPartners/OurPartners'
-import Announcements from '../../Components/Announcements/Announcements'
-import Download from '../../Components/Download Utopia42/Download'
+// import Announcements from '../../Components/Announcements/Announcements'
+// import Download from '../../Components/Download Utopia42/Download'
 import FAQ from '../../Components/FAQ/FAQ'
 
 const HomePage = () => {
@@ -15,11 +15,11 @@ const HomePage = () => {
             <HomeHero />
             <WhyUtopia />
             <Protocol />
-            <OurVideo />
+            {/* <OurVideo /> */}
             <OurParnter />
             <FAQ />
-            <Download />
-            <Announcements />
+            {/* <Download /> */}
+            {/* <Announcements /> */}
         </div>
     )
     

@@ -14,10 +14,10 @@ const RoadmapHero = () => {
                 </div>
                 <img src={require('../../assets/Utopia42roadmap.png') } className="utopia42roadmap"/>
                 <div className="explore">
-                    <div className="bt">
-                        <h4>EXPLORE MORE</h4>
-                        <div className="icon"><img src={require('../../assets/exploredash.png')} alt="" /></div>
-                    </div>
+                    {/* <div className="bt"> */}
+                        {/* <h4>EXPLORE MORE</h4> */}
+                        {/* <div className="icon"><img src={require('../../assets/exploredash.png')} alt="" /></div> */}
+                    {/* </div> */}
                 </div>
                 <img src={require('../../assets/why3.png')} alt="" className="hero-img2" />
 

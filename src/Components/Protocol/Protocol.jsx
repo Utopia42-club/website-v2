@@ -4,12 +4,12 @@ import './Protocol.scss'
 const Protocol = () => {
     return (
         <div className="protocol">
-            <h1>MULTICHAIN</h1>
+            <h1>Multichain & Decentralized Protocol</h1>
             <div className="m-pr">
                 <div className="pr">
                     <img src={Proto.p1} alt="" />
                     <h2>Blockchain</h2>
-                    <h4>Utopia42 is launched on <a href="https://polygon.technology" target="_blank">Polygon</a>, a decentralized Ethereum scaling platform, and the distributed <a href="https://ipfs.io/" target="_blank">IPFS </a>protocol. We are implementing a multichain system, using the <a href="https://www.muon.net" target="_blank">Muon Network</a>, and soon Utopia42 will bridge different blockchains rather than being limited to a single cryptocurrency. </h4>
+                    <h4>Utopia42 is launched on <a href="https://polygon.technology" target="_blank">Polygon</a>, a decentralized Ethereum scaling platform, and the distributed <a href="https://ipfs.io/" target="_blank">IPFS </a>protocol. We are implementing a multichain system, using the <a href="https://www.muon.net" target="_blank">Muon Network</a>.</h4>
                 </div>
                 <div className="pr">
                     <img src={Proto.p2} alt="" />
@@ -27,7 +27,7 @@ const Protocol = () => {
                     <img src={Proto.p4} alt="" />
                     <h2>Multi Platform</h2>
 
-                    <h4>Web, Mobile, PC, ... </h4>
+                    <h4>Web. Mobile, PC will be supported soon.</h4>
                 </div>
             </div>
 

@@ -8,6 +8,7 @@ import Discord from '../../assets/icons8-discord.svg';
 import Instagram from '../../assets/icons8-instagram.svg';
 import Telegram from '../../assets/icons8-telegram.svg'
 import GitHub from '../../assets/icons8-gitHub.svg'
+import ExploreMultiverse from "../ExploreMultiverse/ExploreMultiverse";
 
 const Header = () => {
     const [click, setClick] = useState(false)
@@ -52,7 +53,7 @@ const Header = () => {
                                 <img src={HeaderImg.more} alt="" className="more" />
                                 <div className="about_dropdown">
                                     <li><Link to='/team'>Our Team</Link></li>
-                                    <li><Link to='/'>Whitepaper</Link></li>
+                                    <li> <a  href={require('../../Files/Utopia42_Whitepaper.pdf')} target="_blank">Whitepaper</a></li>
                                     <li><Link to='/roadmap'>Roadmap</Link></li>
                                 </div>
                             </li>
@@ -92,6 +93,9 @@ const Header = () => {
                                     </li>
                                 </div>
                             </li>
+                            <li className="DApp">
+                                <a target="_blank" href="https://dapp.utopia42.club/">DApp</a>
+                            </li>
                             {/* <li>
                                 <Link to="/unbc" onClick={LinkClick}>UNBC</Link>
                             </li> */}
@@ -103,7 +107,7 @@ const Header = () => {
                     <ul>
 
                         <li className="ply">
-                            <PlayButton />
+                            <ExploreMultiverse />
                         </li>
 
                     </ul>
