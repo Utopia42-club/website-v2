@@ -9,7 +9,7 @@ const data = [
     {
         id: 2,
         title: 'Universal Token',
-        para: 'Utopia42 will soon be integrated with Utopia42 toke (U42G) and a governance protocol. Decisions regarding the direction of development and growth of Utopia42 are made by members of the <a href="https://vote.utopia42.club">Utopia42 DAO governance</a>.',
+        para: 'Utopia42 will soon be integrated with Utopia42 token (U42G) and a governance protocol. Decisions regarding the direction of development and growth of Utopia42 are made by members of the <a href="https://vote.utopia42.club">Utopia42 DAO governance</a>.',
         img:WhyUto.im2
     },
     {

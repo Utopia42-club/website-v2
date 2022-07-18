@@ -5,6 +5,7 @@
     border-radius: 15px;
     padding: 1em 1.2em;
     width: fit-content;
+
     cursor: pointer;
     .icon{
       background-color: #2C2C2C;
@@ -49,4 +50,14 @@
   .bt:hover{
     a{color: white !important;}
     color: white !important;
+  }
+
+  .bt {
+    // margin-bottom: 20px;
+    
+  }
+
+  .buttons > div {
+    margin-top: 10px;
+    margin-right: 5px;
   }

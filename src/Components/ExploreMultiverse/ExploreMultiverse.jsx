@@ -11,7 +11,7 @@ const ExploreMultiverse = () => {
                 </div>
             </div>
             <h4>
-            <a href="https://discord.gg/TphaKUZzHx" target="_blank" >
+            <a href="https://app.utopia42.club/game" target="_blank" >
                     Explore Multiverse
             </a></h4>
         </div>

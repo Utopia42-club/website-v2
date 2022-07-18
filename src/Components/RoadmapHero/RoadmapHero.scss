@@ -3,19 +3,28 @@
     background-size: cover;
     background-position-y: -8em;
     background-repeat: no-repeat;
+   
 
-    @media screen and(max-width:950px) and (min-width:600px){
+    @media screen and(max-width:950px) and (min-width:796px){
         background-image: url('../../assets/roadmap-tablet-bg.png');
-        height: 95vw;
+        height: 93vw;
         background-position-y: 0em;
 
     }
-    @media screen and(max-width:600px) and (min-width:350px){
+    @media screen and(max-width:797px) and (min-width:736px){
         background-image: url('../../assets/hero-bg-tablet.png');
-        height: 150vw;
+        height: 100vw;
         background-position-y: 0em;
 
     }
+
+    @media screen and(max-width:737px) and (min-width:700px){
+        background-image: url('../../assets/hero-bg-tablet.png');
+        height: 100vw;
+        background-position-y: 0em;
+
+    }
+
 
     @media screen and(max-width:350px) {
         background-image: url('../../assets/hero-bg-tablet.png');
@@ -27,9 +36,9 @@
         height: 160vw;
         background-position-y: 0em;
     }
-    @media screen and(max-width:320px) {
+    @media screen and(max-width:332px) {
         background-image: url('../../assets/hero-bg-tablet.png');
-        height: 220vw;
+        height: 200vw;
         background-position-y: 0em;
     }
     @media screen and(max-width:280px) {
@@ -71,7 +80,7 @@
             @media screen and(width:912px){
                 display: none;
             }
-            @media screen and(max-width:850px){
+            @media screen and(max-width:1120px){
                 display: none;
             }
             img{

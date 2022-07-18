@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="area-3">
                     <h2>Others</h2>
-                    <Link to='/#FAQ'>Support & FAQ</Link>
+                    <p><Link to='/#FAQ'>Support & FAQ</Link></p>
                     <p><Link to='/Terms'>Terms</Link></p>
                     <p><Link to='/Privacy'>Privacy</Link></p>
                     <p><a href="https://dev.utopia42.club/game">Demo</a></p>

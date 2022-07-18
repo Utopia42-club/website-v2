@@ -27,7 +27,9 @@ const Protocol = () => {
                     <img src={Proto.p4} alt="" />
                     <h2>Multi Platform</h2>
 
-                    <h4>Web. Mobile, PC will be supported soon.</h4>
+                    <h4><a target="_blank" href="https://dev.utopia42.club/game">Web-based version</a> is live. Mobile, PC will be supported soon.
+
+</h4>
                 </div>
             </div>
 

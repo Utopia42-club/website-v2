@@ -4,7 +4,7 @@ import './WhyUtopia.scss'
 const WhyUtopia = () => {
     return (
         <div className="why">
-            <h1 className="head">Why Utopia42</h1>
+            <h1 className="head">Why Utopia42?</h1>
             <div className="whyUtopia">
                 {
                     data.map(main => {
