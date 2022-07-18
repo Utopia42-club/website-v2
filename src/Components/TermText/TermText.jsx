@@ -273,14 +273,14 @@ const TermText = () => {
             <p>
             In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
             </p>
-            <ul>
-                <li><h4>Utopia42</h4></li>
-                <li><h4>1240 W Sims Way # 321</h4></li>
-                <li><h4>Port Townsend, WA 98368</h4></li>
-                <li><h4>United States</h4></li>
-                <li><h4>Phone: (US)(360) 207-1748</h4></li>
-                <li><h4>info@utopia42.club</h4></li>
-            </ul>
+            <div className='addressBar'>
+            <p>Utopia42</p>
+                <p>1240 W Sims Way # 321</p>
+                <p>Port Townsend, WA 98368</p>
+                <p>United States</p>
+                <p>Phone: (US)(360) 207-1748</p>
+                <p>info@utopia42.club</p>
+            </div>
 
     </div>
   )
