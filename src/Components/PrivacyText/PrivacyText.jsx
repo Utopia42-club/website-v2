@@ -30,15 +30,15 @@ const PrivacyText = () => {
 
 <h4>Do you receive any information from third parties?</h4> <p>We do not receive any information from third parties.</p>
 
-<h4>How do you process my information?</h4> <p>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#infouse'>Click</a> here to learn more.</p>
+<h4>How do you process my information?</h4> <p>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#infouse'>here</a>  to learn more.</p>
 
-<h4>In what situations and with which parties do we share personal information?</h4> <p>We may share information in specific situations and with specific third parties. <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#whoshare'>Click here</a> to learn more.</p>
+<h4>In what situations and with which parties do we share personal information?</h4> <p>We may share information in specific situations and with specific third parties. Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#whoshare'>here</a> to learn more.</p>
 
-<h4>What are your rights?</h4> <p>Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#privacyrights'>Click here</a> to learn more.</p>
+<h4>What are your rights?</h4> <p>Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#privacyrights'> here</a> to learn more.</p>
 
 <h4>How do I exercise my rights?</h4> <p>The easiest way to exercise your rights is by filling out our data subject request form available <a href='https://app.termly.io/notify/3191ca18-f6cb-4457-9653-cd6bf029ac33'>here</a>, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
 
-<h4>Want to learn more about what Utopia42 does with any information we collect?</h4> <p>Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#toc'></a>here to review the notice in full.</p>
+<h4>Want to learn more about what Utopia42 does with any information we collect?</h4> <p>Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#toc'>here</a> to review the notice in full.</p>
 
 
 <h4>TABLE OF CONTENTS</h4>
@@ -98,7 +98,7 @@ const PrivacyText = () => {
 
 <h4>If you are located in Canada, this section applies to you.</h4>
 
-<p>We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time. Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#withdrawconsent'>here to learn more.</a></p>
+<p>We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time. Click <a href='https://app.termly.io/document/privacy-policy/3191ca18-f6cb-4457-9653-cd6bf029ac33#withdrawconsent'>here</a>  to learn more.</p>
 
 <p>In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example:</p>
 <ul>
@@ -342,10 +342,13 @@ const PrivacyText = () => {
 
 <p>If you have questions or comments about this notice, you may email us at info@utopia42.club or by post to:</p>
 
-<p>Utopia42</p>
-<p>1240 W Sims Way # 321</p>
-<p>Port Townsend, WA 98368</p>
-<p>United States</p>
+<div className="privacyAddresses">
+    <p>Utopia42</p>
+    <p>1240 W Sims Way # 321</p>
+    <p>Port Townsend, WA 98368</p>
+    <p>United States</p>
+</div>
+
 
 <h4 id='0013'>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h4>
 

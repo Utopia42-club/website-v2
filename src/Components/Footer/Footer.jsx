@@ -26,7 +26,7 @@ const Footer = () => {
                     <p><Link to='/#FAQ'>Support & FAQ</Link></p>
                     <p><Link to='/Terms'>Terms</Link></p>
                     <p><Link to='/Privacy'>Privacy</Link></p>
-                    <p><a href="https://dev.utopia42.club/game">Demo</a></p>
+                    <p><a target="_blank" href="https://dev.utopia42.club/game">Demo</a></p>
                     {/* <a href=".social"><h4>Social</h4></a> */}
                     {/* <h4>UNBC</h4> */}
                 </div>

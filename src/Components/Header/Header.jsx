@@ -36,18 +36,9 @@ const Header = () => {
                 <div className={click ? "active menu" : "menu"} id="menu">
                     <ul>
                         <div className="m-link">
-                            {/* <li className="exp">
-                                <Link to="/" >
-                                    Explore
-                                </Link>
-                                <img src={HeaderImg.more} alt="" className="more" />
-                                <div className="dropdown-content">
-                                    <div className="btns">
-                                        <Metamastbtn />
-                                        <PlayButton />
-                                    </div>
-                                </div>
-                            </li> */}
+                        <li className="about">
+                            <Link to="/"  >Home</Link>
+                        </li>
                             <li className="about">
                                 <Link to="/"  >About</Link>
                                 <img src={HeaderImg.more} alt="" className="more" />
@@ -58,9 +49,7 @@ const Header = () => {
                                 </div>
                             </li>
                             <li>
-                                {/* <a href="/#FAQ">Support & FAQ</a> */}
                                 <Link to='/#FAQ'>Support & FAQ</Link>
-                                {/* <Link to="/" onClick={LinkClick}></Link> */}
                             </li>
                             <li className="social">
                                 <Link to="/">Social</Link>
@@ -96,9 +85,6 @@ const Header = () => {
                             <li className="DApp">
                                 <a target="_blank" href="https://dapp.utopia42.club/">DApp</a>
                             </li>
-                            {/* <li>
-                                <Link to="/unbc" onClick={LinkClick}>UNBC</Link>
-                            </li> */}
                         </div>
 
                     </ul>
@@ -119,8 +105,6 @@ const Header = () => {
                 </div>
             </nav>
         </div>
-        // </div>
-
     )
 }
 export default Header
