@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="area-2">
                     <h2>About</h2>
                     <li><Link to='/team'>Our Team</Link></li>
-                    <li><a target="_blank" href={require('../../Files/Utopia42_Whitepaper.pdf')}>Whitepaper</a></li>
+                    <li><a target="_blank" href={require('../../Files/Utopia42_Whitepaper_v1.pdf')}>Whitepaper</a></li>
                     <li><Link to='/roadmap'>Roadmap</Link></li>
                 </div>
                 <div className="area-3">
