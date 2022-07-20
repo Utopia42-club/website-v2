@@ -14,7 +14,7 @@ const Team = () => {
                         <h1>Our Team</h1>
                     </div>
                     <div className="desc">
-                        <h2>To be the company our customers want us to be, it takes an eclectic group passionate about the customer experience. Get to know the people leading the way at UTOPIA42.</h2>
+                        <h2>Let's split heaven's ceiling with our powers and try a wholly new design ...</h2>
                     </div>
 
                 </div>

@@ -5,9 +5,9 @@ import './PlayButton.scss'
 const PlayButton = () => {
     return (
         <div className="bt">
-            <div className="icon">
+            <div className="icon-2" style={{marginRight:"4px"}}>
                 <div className="play-area">
-                    <img src={Discord} alt="" className="white-play" />
+                    <img width="30px" src={Discord} alt="" className="white-play" />
                 </div>
             </div>
             <h4>

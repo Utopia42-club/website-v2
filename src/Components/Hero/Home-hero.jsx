@@ -4,6 +4,7 @@ import { Hro } from '../../assets/index.js'
 import Header from "../Header/Header";
 import PlayButton from "../PlayButton/PlayButton";
 import DownloadButton from "../DownloadButton/DownloadButton";
+import ExploreMultiverse from "../ExploreMultiverse/ExploreMultiverse";
 const HomeHero = () => {
     return (
         <div className="hero">
@@ -17,6 +18,9 @@ const HomeHero = () => {
                         <div className="buttons">
                             <PlayButton />
                             <DownloadButton />
+                            <div className="buttonsExplore">
+                                <ExploreMultiverse />
+                            </div>
                         </div>
                     </div>
                 </div>

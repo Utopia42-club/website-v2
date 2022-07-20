@@ -5,9 +5,21 @@
     border: 2px solid #814F8C;
     border-radius: 15px;
     padding: 1em 1.2em;
-    width: fit-content;
+    // @media screen and(max-width:1116px) {
+      // min-width: 100%;
+  // }
     .icon{
       background-color: #814F8C;
+      width: 28px;
+      height: 28px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+    .icon-2{
+      background-color: none;
       width: 28px;
       height: 28px;
       text-align: center;
@@ -28,6 +40,9 @@
     h4{
       color: #fff;
     }
+    .icon-2{
+      background-color: none;
+    }
     .play-area{
       width: 28px;
       height: 28px;
@@ -36,7 +51,7 @@
       justify-content: center;
       align-items: center;
       border-radius: 8px;
-      border: 2px solid #fff;
+      // border: 2px solid #fff;
     }
    
   }
