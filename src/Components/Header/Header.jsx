@@ -44,6 +44,8 @@ const Header = () => {
                                 <img src={HeaderImg.more} alt="" className="more" />
                                 <div className="about_dropdown">
                                     <li><Link to='/team'>Our Team</Link></li>
+                                    <li> <a  href='https://utopia42club.gitbook.io/docs/' target="_blank">Info</a></li>
+                                   
                                     <li> <a  href={require('../../Files/Utopia42_Whitepaper_v1.pdf')} target="_blank">Whitepaper</a></li>
                                     <li><Link to='/roadmap'>Roadmap</Link></li>
                                 </div>

@@ -18,8 +18,8 @@
         answer:'<ul><li>Utopia42 is a Multiverse. Every project and community can run its own Metaverse and start to build its own world. The sky is NOT the limit on Utopia42. There will be a lot of worlds, skys, etc.</li><li>One of the goals is to connect real world applications to Utopia42. It is not just a platform for entertainment. We invite the different projects to run Universities, Virtual Offices, Museums, Libraries,  on Utopia42 and try to offer their services to everyone on a borderless and decentralized platform.</li></ul>'
     }, {
         id:5,
-        question:'How can individuals and organizations apply to deploy their Metaverse?',
-        answer:'<a href="https://forms.gle/xnHYDNQ2R3HwdVAZ8" target="_blank">Apply here</a> to join our waitlist for deploying your own Metaverse.'
+        question:'How can individuals and organizations get their own Metaverse?',
+        answer:`Under<a href="https://dapp.utopia42.club/CreateVerse"> Utopia42's dApp</a> you can create your own 'Verse. If you are looking for a customized solution and help building, please <a href="https://forms.gle/xnHYDNQ2R3HwdVAZ8">Apply here</a>.`
     },
     {
         id:6,
