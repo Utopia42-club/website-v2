@@ -8,6 +8,7 @@ import Discord from '../../assets/icons8-discord.svg';
 import Instagram from '../../assets/icons8-instagram.svg';
 import Telegram from '../../assets/icons8-telegram.svg'
 import GitHub from '../../assets/icons8-gitHub.svg'
+import Youtube from '../../assets/icons8-youtube.svg'
 import ExploreMultiverse from "../ExploreMultiverse/ExploreMultiverse";
 
 const Header = () => {
@@ -80,6 +81,11 @@ const Header = () => {
                                     <li className="s-link">
                                         <a href="https://github.com/Utopia42-club/" target="_blank" ><img src={GitHub} alt="" />
                                             Follow on Github
+                                        </a>
+                                    </li>
+                                    <li className="s-link">
+                                        <a href="https://www.youtube.com/channel/UCIICxLP-hLhQg8OPrmEEPtQ" target="_blank" ><img src={Youtube} alt="" />
+                                            Follow on Youtube
                                         </a>
                                     </li>
                                 </div>
