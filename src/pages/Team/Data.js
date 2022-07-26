@@ -1,10 +1,10 @@
 const ManagementsUser = [
     {
-        name:'Serge Müller',
+        name:'Sergej Müller',
         jobTitle:'EU Marketing & Community',
         gitHubLink:  null,
-        linkedinLink:  null,
-        imgUrl: require("../../assets/serge.jpg")
+        linkedinLink:  'https://www.linkedin.com/in/sergej-m%C3%BCller-271756246/',
+        imgUrl: require("../../assets/serge_new.JPEG")
     },
     {
         name:'Amin Abbasi',
