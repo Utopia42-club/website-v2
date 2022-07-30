@@ -10,7 +10,7 @@ const Footer = () => {
     const handleClick = () => {
         return Swal({
             icon:'info',
-            text:'Please Try on a computer. Mobile apps will be launched soon.',
+            text:'Please try on a computer. Mobile apps will be launched soon.',
             showConfirmButton: false,
             timer: 3200,
         })
