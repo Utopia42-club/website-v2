@@ -8,7 +8,7 @@ const ExploreMultiverse = () => {
   const handleClick = () => {
     return Swal({
         icon:'info',
-        text:'Please on a computer. Mobile apps will be launched soon.',
+        text:'Please Try on a computer. Mobile apps will be launched soon.',
         showConfirmButton: false,
         timer: 3200,
     })
