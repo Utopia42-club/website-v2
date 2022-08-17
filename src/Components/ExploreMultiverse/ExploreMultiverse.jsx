@@ -29,7 +29,6 @@ const ExploreMultiverse = () => {
   else{
     isMobile = false;
   }
-  console.log(isMobile)
   return (
     <div className="bt">
       <div className="icon">
@@ -39,7 +38,7 @@ const ExploreMultiverse = () => {
       </div>
       {!isMobile ?
             <h4>
-            <a href="https://app.utopia42.club/game" target="_blank">
+            <a href="https://verse.utopia42.club/" target="_blank">
               Explore Multiverse
             </a>
           </h4>
