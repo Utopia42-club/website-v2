@@ -77,7 +77,7 @@ const Footer = () => {
           </p>
           <p>
             {!isMobile ? 
-                <a target="_blank" href="https://dev.utopia42.club/game">
+                <a target="_blank" href="https://dev.utopia42.club/80001/0x98bd243dd1df89129f753134a5c4985390a72f76?position=0.5_32_0.5">
                 Demo
                 </a>
             :
