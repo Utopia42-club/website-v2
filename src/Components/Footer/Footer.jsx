@@ -76,8 +76,9 @@ const Footer = () => {
             <Link to="/Privacy">Privacy</Link>
           </p>
           <p>
+     
             {!isMobile ? 
-                <a target="_blank" href="https://dev.utopia42.club/80001/0x98bd243dd1df89129f753134a5c4985390a72f76?position=0.5_32_0.5">
+                <a target="_blank" href="https://verse.utopia42.club/137/0xd21a2bec573d08b055a66ee61106bc3b7578e673?position=-2631.137_32_-1007.075">
                 Demo
                 </a>
             :
