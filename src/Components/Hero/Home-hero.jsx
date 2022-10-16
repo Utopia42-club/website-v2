@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import PlayButton from "../PlayButton/PlayButton";
 import DownloadButton from "../DownloadButton/DownloadButton";
 import ExploreMultiverse from "../ExploreMultiverse/ExploreMultiverse";
+import UsersAndVerifyCount from "../usersAndVerifyCount/UsersAndVerifyCount"
 const HomeHero = () => {
     return (
         <div className="hero">
@@ -21,6 +22,7 @@ const HomeHero = () => {
                             <div className="buttonsExplore">
                                 <ExploreMultiverse />
                             </div>
+                            <UsersAndVerifyCount />
                         </div>
                     </div>
                 </div>
