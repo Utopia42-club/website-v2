@@ -15,7 +15,7 @@ const useGetPrice = () => {
     }
 
     const totalSupply =  await contract.methods.totalSupply().call()
-    console.log(totalSupply)
+    // console.log(totalSupply)
     return totalSupply
 
   }
