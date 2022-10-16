@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from "react-router-dom";
+import { Web3ReactProvider } from '@web3-react/core'
+// import { getLibrary } from '../src/utils/web3-react'
+import Web3ReactManager from '../src/utils/web3ReactManager'
 // import { MetaMaskProvider } from "metamask-react";
 ReactDOM.render(
   <HashRouter hashType="hashbang">
+     <Web3ReactProvider>
+     {/* <Web3ReactManager> */}
       {/* <MetaMaskProvider> */}
         <App />
       {/* </MetaMaskProvider> */}
+      {/* </Web3ReactManager> */}
+      </Web3ReactProvider>
   </HashRouter>,
   document.getElementById('root')
 );

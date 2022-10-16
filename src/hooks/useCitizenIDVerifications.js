@@ -21,6 +21,7 @@ const useCitizenIDVerifications = () => {
 
             data  = res
         })
+        console.log(data)
         return data.data.data.counters[0].totalVerified
     }
 

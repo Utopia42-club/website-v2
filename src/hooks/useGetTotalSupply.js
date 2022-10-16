@@ -4,7 +4,7 @@ import useWeb3 from './useWeb3'
 import { UNBCNFTContractAddress } from '../ContractsAddresses'
 
 const useGetPrice = () => {
-  const web3 = useWeb3('https://polygon-rpc.com');
+  const web3 = useWeb3();
 
   const getTotalSupply = async () => {
     const contract = await getContract(unbcNFTAbi, UNBCNFTContractAddress, web3)
@@ -15,7 +15,7 @@ const useGetPrice = () => {
     }
 
     const totalSupply =  await contract.methods.totalSupply().call()
-    // console.log(totalSupply)
+    console.log(totalSupply)
     return totalSupply
 
   }
