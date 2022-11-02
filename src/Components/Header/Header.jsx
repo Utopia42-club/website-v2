@@ -84,7 +84,7 @@ const Header = () => {
                                         </a>
                                     </li>
                                     <li className="s-link">
-                                        <a href="https://www.youtube.com/channel/UCIICxLP-hLhQg8OPrmEEPtQ" target="_blank" ><img src={Youtube} alt="" />
+                                        <a href="https://www.youtube.com/@utopia42club" target="_blank" ><img src={Youtube} alt="" />
                                             Follow on Youtube
                                         </a>
                                     </li>
